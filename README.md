@@ -24,38 +24,30 @@ limitations under the License.
 
 > Test if a value is null.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-null
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-isNull = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var isNull = require( 'path/to/vendor/umd/assert-is-null/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.isNull;
-})();
-</script>
+var isNull = require( '@stdlib/assert-is-null' );
 ```
 
 #### isNull( value )
@@ -79,13 +71,8 @@ var bool = isNull( null );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var isNull = require( '@stdlib/assert-is-null' );
 
 var bool = isNull( null );
 // returns true
@@ -110,11 +97,6 @@ bool = isNull( [] );
 
 bool = isNull( function foo() {} );
 // returns false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -162,7 +144,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -207,9 +189,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-undefined]: https://github.com/stdlib-js/assert-is-undefined/tree/umd
+[@stdlib/assert/is-undefined]: https://github.com/stdlib-js/assert-is-undefined
 
-[@stdlib/assert/is-undefined-or-null]: https://github.com/stdlib-js/assert-is-undefined-or-null/tree/umd
+[@stdlib/assert/is-undefined-or-null]: https://github.com/stdlib-js/assert-is-undefined-or-null
 
 <!-- </related-links> -->
 
