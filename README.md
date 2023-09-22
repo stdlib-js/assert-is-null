@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-null/tags). For example,
+
+```javascript
 import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@v0.1.0-deno/mod.js';
 ```
 
@@ -67,7 +72,7 @@ var bool = isNull( null );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@v0.1.0-deno/mod.js';
+import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@deno/mod.js';
 
 var bool = isNull( null );
 // returns true
