@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@esm/index.mjs';
+import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@v0.1.0-esm/index.mjs';
 ```
 
 #### isNull( value )
@@ -72,7 +72,7 @@ var bool = isNull( null );
 <body>
 <script type="module">
 
-import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@esm/index.mjs';
+import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@v0.1.0-esm/index.mjs';
 
 var bool = isNull( null );
 // returns true
