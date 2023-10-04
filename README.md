@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@deno/mod.js';
+import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@v0.1.1-deno/mod.js';
 ```
 
 #### isNull( value )
@@ -67,7 +67,7 @@ var bool = isNull( null );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@deno/mod.js';
+import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@v0.1.1-deno/mod.js';
 
 var bool = isNull( null );
 // returns true
