@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-null/tags). For example,
+
+```javascript
 import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@v0.1.1-esm/index.mjs';
 ```
 
@@ -72,7 +77,7 @@ var bool = isNull( null );
 <body>
 <script type="module">
 
-import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@v0.1.1-esm/index.mjs';
+import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@esm/index.mjs';
 
 var bool = isNull( null );
 // returns true
