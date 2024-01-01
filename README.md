@@ -35,14 +35,30 @@ limitations under the License.
 
 > Test if a value is null.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-null
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@esm/index.mjs';
+var isNull = require( '@stdlib/assert-is-null' );
 ```
 
 #### isNull( value )
@@ -66,13 +82,8 @@ var bool = isNull( null );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import isNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-null@esm/index.mjs';
+```javascript
+var isNull = require( '@stdlib/assert-is-null' );
 
 var bool = isNull( null );
 // returns true
@@ -97,10 +108,6 @@ bool = isNull( [] );
 
 bool = isNull( function foo() {} );
 // returns false
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -131,7 +138,7 @@ bool = isNull( function foo() {} );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -148,7 +155,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -193,9 +200,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-undefined]: https://github.com/stdlib-js/assert-is-undefined/tree/esm
+[@stdlib/assert/is-undefined]: https://github.com/stdlib-js/assert-is-undefined
 
-[@stdlib/assert/is-undefined-or-null]: https://github.com/stdlib-js/assert-is-undefined-or-null/tree/esm
+[@stdlib/assert/is-undefined-or-null]: https://github.com/stdlib-js/assert-is-undefined-or-null
 
 <!-- </related-links> -->
 
